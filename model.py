@@ -27,19 +27,11 @@ train_x, test_x, train_y, test_y = train_test_split(X,Y, test_size=0.5,random_st
 
 clf = LogisticRegression();
 clf.fit(train_x, train_y);
-print(clf.score(test_x, test_y));
+print("Score:", clf.score(test_x, test_y));
 
-print(len(train_x));
-print(len(train_y));
-print(len(test_x));
-print(len(test_y));
 pred =  clf.predict(test_x);
 print("Predict:", pred[0] );
 print("Truth:", test_y[0]);
-
-# for i in range(len(train_y)):
-    # if train_y[i] == 1:
-        # print("true");
 
 # find true fraud for prediction
 num = 0;
