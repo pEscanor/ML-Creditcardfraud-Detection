@@ -1,4 +1,4 @@
 # ML-Creditcardfraud-Detection
 Machine Learning Creditcardfraud Detection
 
-<a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">Download</a>  the CSV file
+Download the <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">CSV file</a>
